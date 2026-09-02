@@ -14,7 +14,7 @@ from torchvision import transforms
 
 from model import DiseaseTypeCNN
 
-image_size = 64
+image_size = 128
 
 
 class DermaMNISTDataset(Dataset):
