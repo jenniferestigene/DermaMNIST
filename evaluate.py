@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 from model import DiseaseTypeCNN
 from train import DermaMNISTDataset
 
-image_size = 64
+image_size = 128
 
 CLASS_NAMES = [
     "actinic keratoses and intraepithelial carcinoma",
